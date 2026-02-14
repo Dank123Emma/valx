@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Will You be My Valentine?</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Sparkle Canvas -->
+    <canvas id="sparkleCanvas"></canvas>
+
+    <!-- Shooting Stars -->
+    <div class="shooting-stars"></div>
+
+    <!-- Background Music -->
+    <audio id="bgMusic" src="romantic.mp3" autoplay muted loop></audio>
+
+    <!-- Hero -->
+    <section class="hero">
+        <h1>Forever is Forever</h1>
+        <p class="date">February 14 – Valentine's day</p>
+
+        <div class="countdown">
+            <h3>Countdown to Valentine's Day</h3>
+            <div id="timer">
+                <span><strong id="days">0</strong> Days</span>
+                <span><strong id="hours">0</strong> Hours</span>
+                <span><strong id="minutes">0</strong> Minutes</span>
+                <span><strong id="seconds">0</strong> Seconds</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Poem -->
+    <section class="poem-section">
+        <div class="poem-box">
+            Benedicta,<br><br>
+            Destiny whispered your name into my heart.<br>
+            Every sunrise feels warmer because you exist.<br>
+            You are my peace. My forever. My always.
+        </div>
+    </section>
+
+    <!-- Valentine Drawer -->
+    <div class="drawer" id="valentineDrawer">
+        <h2>Benedicta,<br>Will you be my Valentine?</h2>
+        <div class="buttons">
+            <button id="yesBtn">Yes 💍</button>
+            <button id="noBtn">No</button>
+        </div>
+    </div>
+
+    <!-- TOP Love Panel -->
+    <div class="top-panel" id="lovePanel">
+        <div class="image-overlay"></div>
+        <div class="love-content">
+            <h2>I Love You, Benedicta ❤️</h2>
+            <div class="ring" id="ring"></div>
+            <p>Forever & Always</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
